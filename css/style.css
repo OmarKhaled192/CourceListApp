@@ -1,0 +1,59 @@
+:root {
+  --head-color: #5fa8d3;
+  --main-color: rgb(202 233 255 / 50%);
+}
+.form-group {
+  margin-top: 20px;
+  width: 100%;
+}
+header {
+  background-color: var(--head-color)
+}
+@media (min-width: 992px) {
+  .form-group {
+    display: flex;
+    justify-content: space-around;
+  }
+  .form-group label {
+    flex-basis: 20%;
+  }
+  .form-group input,
+  .form-group textarea {
+      flex-basis: 80%;
+  }
+  .form-group input:focus,
+  .form-group textarea:focus  {
+    outline: none;
+    box-shadow: none;
+  }
+  #courses-form input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+  }
+  table tr td:last-child a {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  }
+}
+.form-group textarea {
+  height: 180px;
+  margin-bottom: 20px;
+  resize: none;
+}
+form {
+  padding: 30px;
+  border-radius: 5%;
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  color: #3479a0;
+}
+table tr:nth-child(odd) td {
+  background-color: rgb(202 233 255 / 50%);
+}
+table thead {
+  background-color:  var(--head-color);
+  color: white;
+}
+
