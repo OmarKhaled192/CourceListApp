@@ -3,4 +3,4 @@
 - using pure Html, Css, Javascript, bootstrap framework 
 - using oop concepts in this project
 - using Dom Modules from javascript
-- validating input before submit in table
+- validating inputs before submit in table
